@@ -54,7 +54,7 @@
                 margin: 20px;
                 color: #ffffff;
             }
-            .footer {
+        .footer {
             background-color: #333;
             color: #eaeaea;
             text-align: center;
@@ -65,8 +65,17 @@
         .footer a {
             color: #0af;
             text-decoration: none;
-            
-            .footer img {
+        }
+
+        header img {
+            height: 50px; /* Fixed height for the image */
+            object-fit: contain; /* Keeps aspect ratio */
+            position: absolute;
+            left: 924px;
+            transform: translateX(-50%);
+        }
+    
+        .footer img {
             height: 30px; /* Set height to match footer size */
             width: auto; /* Maintain aspect ratio */
             vertical-align: middle; /* Align image with text */
@@ -79,6 +88,7 @@
         .footer a {
             color: #0af;
             text-decoration: none;
+        }
         
         }
         </style>
